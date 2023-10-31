@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><strong>HTML Elements Demo</strong></title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <!-- Text with different styles -->
+  <p><strong>SURIYA</strong></p>
+  <p><em>kumar</em></p>
+  <p><u>Btech</u></p>
+  <p><s>class</s></p>
+
+  <!-- Headings -->
+  <h1>cyber security essentials</h1>
+  
+
+  <!-- Line breaks -->
+  <br>
+  <hr>
+
+  <!-- Heading and paragraph alignment -->
+  <h2 style="text-align: center;">cyber security</h2>
+  <p style="text-align: right;">As you’ve learned, cybersecurity (also known as security) is the practice of ensuring confidentiality, integrity, and availability of information by protecting networks, devices, people, and data from unauthorized access or criminal exploitation. In this reading, you’ll be introduced to some key terms used in the cybersecurity profession. Then, you’ll be provided with a resource that’s useful for staying informed about changes to cybersecurity terminology.</p>
+
+  <!-- Lists -->
+  <ul>
+    <li>Unordered List Item 1</li>
+    <li>Unordered List Item 2</li>
+  </ul>
+
+  <ol>
+    <li>Ordered List Item 1</li>
+    <li>Ordered List Item 2</li>
+  </ol>
+
+  <!-- Nested List -->
+  <ul>
+    <li>Parent Item 1
+      <ul>
+        <li>Nested Item 1</li>
+        <li>Nested Item 2</li>
+      </ul>
+    </li>
+    <li>Parent Item 2</li>
+  </ul>
+
+  <!-- Definition List -->
+  <dl>
+    <dt>Term 1</dt>
+    <dd>Definition 1</dd>
+
+    <dt>Term 2</dt>
+    <dd>Definition 2</dd>
+  </dl>
+
+  <!-- Background color and image -->
+  <div style="background-color: #0d0c0c; background-image: url('your_image_url.jpg');">
+    <p>Content with background color and image</p>
+  </div>
+
+  <!-- Text color -->
+  <p style="color: red;">Colored Text</p>
+
+  <!-- Text hyperlink -->
+  <p><a href="https://www.google.com">Link to google</a></p>
+
+  <!-- Image with width and height attributes -->
+  <img src="https://twitter.com/Suriya71999299/photo" alt="Image" width="200" height="150">
+
+  <!-- Image with alignment within a table -->
+  <table border="1" style="width: 50%; margin: auto;">
+    <tr>
+      <td style="text-align: center;">Image 1</td>
+      <td style="text-align: center;">Image 2</td>
+    </tr>
+    <tr>
+      <td><img src="chrome://favicon/size/64@1x/https://google.com/" alt="Image 1" width="100" height="100"></td>
+      <td><img src="" alt="Image 2" width="100" height="100"></td>
+    </tr>
+  </table>
+
+  <!-- HTML Form -->
+  <form action="/registration-successful" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="country1">india</option>
+      <option value="country2">africa</option>
+      <option value="country3">america</option>
+      <option value="country4">england</option>
+      <option value="country5">pakistan</option>
+    </select><br>
+
+    <label for="fileupload">Upload File:</label>
+    <input type="file" id="fileupload" name="fileupload"><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="hobby1" name="hobbies" value="hobby1">
+    <label for="hobby1">Hobby 1</label><br>
+    <input type="checkbox" id="hobby2" name="hobbies" value="hobby2">
+    <label for="hobby2">Hobby 2</label><br>
+    <input type="checkbox" id="hobby3" name="hobbies" value="hobby3">
+    <label for="hobby3">Hobby 3</label><br>
+    <input type="checkbox" id="hobby4" name="hobbies" value="hobby4">
+    <label for="hobby4">Hobby 4</label><br>
+    <input type="checkbox" id="hobby5" name="hobbies" value="hobby5">
+    <label for="hobby5">Hobby 5</label><br>
+
+    <input type="submit" value="Registration successful">
+    <input type="reset" value="Reset">
+  </form>
+
+  <!-- Link to the form page for registration -->
+  <p><a href="#registration-form">Click here to register!</a></p>
+
+</body>
+</html>

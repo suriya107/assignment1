@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .transparent-box {
+            background-color: rgba(237, 204, 16, 0.588); /* Red with 50% opacity */
+            width: 200px;
+            height: 200px;
+            border: 1px solid rgb(9, 124, 43);
+        }
+    </style>
+    
+
+    <body background="avv3.jpg">
+        <h1 style=" text-decoration: wavy; text-align: center; color: aliceblue;"> Registration</h1>
+        <div class="transparent-box" >
+        <form action="resu.html">
+            <label for="fname" >Name:</label><br>
+            <input type="text" id="fname" name="name"><br>
+            <label for="no">reg.no:</label>
+            <input type="text" id="no" name="reg.no"><br>
+            <label for="pn">phone no:</label>
+            <input type="text" id="pn" name="phone.no"><br>
+            <label for="un">user name:</label>
+            <input type="text" id="un" name="user name"><br>
+            <label for="pw">pass word:</label>
+            <input type="password" id="pw" name="password"><br>
+
+            
+            <div class="transparent-box" >
+            <p>Department:</p>
+            <input type="radio" name="Department" id="cse">
+            <label for cse>CSE</label><br>
+            <input type="radio" name="Department" id="aie">
+            <label for aie>AIE</label><br>
+            <input type="radio" name="Department"  id="cys">
+            <label>CYS</label><br>
+            <input type="radio" name="Department" id="cce">
+            <label>CCE</label><br>
+            <input type="radio" name="Department" id="are">
+            <label>ARE</label>
+            
+            <div class="transparent-box" >
+                        <p>Year</p>
+            <input type="checkbox" name="year" id="1">
+            <label>1</label><br>
+            <input type="checkbox" name="year" id="2">
+            <label>2</label><br>
+            <input type="checkbox" name="year" id="3">
+            <label>3</label><br>
+            <input type="checkbox" name="year" id="4">
+            <label>4</label><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"><br>
+             
+            <label for ="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="Gender">Male</option>
+                <option value="Female">Female</option>
+           </select><br>
+
+
+            <input type="submit" value="submit" size="100" style="background-color: aqua;">
+
+
+        </form></div>
+    </div>
+    </body>
+</html>
